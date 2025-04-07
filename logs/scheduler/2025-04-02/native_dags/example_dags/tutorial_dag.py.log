@@ -1,0 +1,35 @@
+[2025-04-02T15:49:01.366+0200] {processor.py:186} INFO - Started process (PID=15049) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:49:01.367+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-02T15:49:01.371+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:01.370+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:49:01.387+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:49:01.420+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:01.420+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:49:01.436+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:01.436+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-02T15:49:01.462+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.109 seconds
+[2025-04-02T15:50:08.070+0200] {processor.py:186} INFO - Started process (PID=15364) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:50:08.071+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-02T15:50:08.075+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:08.075+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:50:08.084+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:50:08.102+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:08.102+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:50:08.117+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:08.117+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-02T15:50:08.144+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.081 seconds
+[2025-04-02T15:51:23.228+0200] {processor.py:186} INFO - Started process (PID=15707) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:51:23.230+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-02T15:51:23.237+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:23.236+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:51:23.251+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:51:23.271+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:23.271+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:51:23.286+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:23.285+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-02T15:51:23.308+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.101 seconds
+[2025-04-02T15:52:39.298+0200] {processor.py:186} INFO - Started process (PID=16555) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:52:39.299+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-02T15:52:39.302+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:39.302+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:52:39.311+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:52:39.330+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:39.330+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:52:39.345+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:39.345+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-02T15:52:39.367+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.078 seconds
+[2025-04-02T15:53:52.699+0200] {processor.py:186} INFO - Started process (PID=18287) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:53:52.701+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2025-04-02T15:53:52.704+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:52.703+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:53:52.714+0200] {processor.py:925} INFO - DAG(s) 'tutorial_dag' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2025-04-02T15:53:52.737+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:52.737+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:53:52.758+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:52.758+0200] {dag.py:4180} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2025-04-02T15:53:52.932+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.242 seconds

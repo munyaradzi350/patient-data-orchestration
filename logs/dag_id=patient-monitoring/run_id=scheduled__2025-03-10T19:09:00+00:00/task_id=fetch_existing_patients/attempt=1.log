@@ -1,0 +1,28 @@
+[2025-03-10T21:11:08.032+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T21:11:08.047+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: patient-monitoring.fetch_existing_patients scheduled__2025-03-10T19:09:00+00:00 [queued]>
+[2025-03-10T21:11:08.056+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: patient-monitoring.fetch_existing_patients scheduled__2025-03-10T19:09:00+00:00 [queued]>
+[2025-03-10T21:11:08.056+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-03-10T21:11:08.082+0200] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_existing_patients> on 2025-03-10 19:09:00+00:00
+[2025-03-10T21:11:08.088+0200] {standard_task_runner.py:72} INFO - Started process 28067 to run task
+[2025-03-10T21:11:08.095+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'patient-monitoring', 'fetch_existing_patients', 'scheduled__2025-03-10T19:09:00+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmpbtdsn0d9']
+[2025-03-10T21:11:08.097+0200] {standard_task_runner.py:105} INFO - Job 85: Subtask fetch_existing_patients
+[2025-03-10T21:11:08.271+0200] {task_command.py:467} INFO - Running <TaskInstance: patient-monitoring.fetch_existing_patients scheduled__2025-03-10T19:09:00+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2025-03-10T21:11:08.444+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='munyah' AIRFLOW_CTX_DAG_ID='patient-monitoring' AIRFLOW_CTX_TASK_ID='fetch_existing_patients' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T19:09:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-10T19:09:00+00:00'
+[2025-03-10T21:11:08.447+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T21:11:08.447+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T21:11:08.448+0200] {logging_mixin.py:190} INFO - Current task name:fetch_existing_patients state:running start_date:2025-03-10 19:11:08.047862+00:00
+[2025-03-10T21:11:08.448+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring and current dag run status:running
+[2025-03-10T21:11:08.449+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-10T21:11:08.461+0200] {base.py:84} INFO - Retrieving connection 'patients_data'
+[2025-03-10T21:11:08.467+0200] {http.py:248} WARNING - HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /api/patient-data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7c0075996590>: Failed to establish a new connection: [Errno 111] Connection refused')) Tenacity will retry to execute the operation
+[2025-03-10T21:11:08.467+0200] {real_time_patient_data_update.py:25} ERROR - Patient fetch error: HTTPConnectionPool(host='127.0.0.1', port=5000): Max retries exceeded with url: /api/patient-data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7c0075996590>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2025-03-10T21:11:08.482+0200] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-10T21:11:08.490+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-10T21:11:08.491+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=patient-monitoring, task_id=fetch_existing_patients, run_id=scheduled__2025-03-10T19:09:00+00:00, execution_date=20250310T190900, start_date=20250310T191108, end_date=20250310T191108
+[2025-03-10T21:11:08.503+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-10T21:11:08.503+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-10T21:11:08.504+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring queued_at:2025-03-10 19:11:04.700308+00:00
+[2025-03-10T21:11:08.504+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:PythonOperator
+[2025-03-10T21:11:08.553+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-10T21:11:08.581+0200] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T21:11:08.584+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

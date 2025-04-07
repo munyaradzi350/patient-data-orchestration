@@ -1,0 +1,32 @@
+[2025-02-18T01:19:51.006+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-18T01:19:51.018+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_xcom.bash_pull scheduled__2021-01-01T00:00:00+00:00 [queued]>
+[2025-02-18T01:19:51.026+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_xcom.bash_pull scheduled__2021-01-01T00:00:00+00:00 [queued]>
+[2025-02-18T01:19:51.027+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2025-02-18T01:19:51.046+0200] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): bash_pull> on 2021-01-01 00:00:00+00:00
+[2025-02-18T01:19:51.052+0200] {standard_task_runner.py:72} INFO - Started process 350829 to run task
+[2025-02-18T01:19:51.056+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'example_xcom', 'bash_pull', 'scheduled__2021-01-01T00:00:00+00:00', '--job-id', '58', '--raw', '--subdir', '/home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py', '--cfg-path', '/tmp/tmpd2ellh_b']
+[2025-02-18T01:19:51.057+0200] {standard_task_runner.py:105} INFO - Job 58: Subtask bash_pull
+[2025-02-18T01:19:51.098+0200] {task_command.py:467} INFO - Running <TaskInstance: example_xcom.bash_pull scheduled__2021-01-01T00:00:00+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2025-02-18T01:19:51.174+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_xcom' AIRFLOW_CTX_TASK_ID='bash_pull' AIRFLOW_CTX_EXECUTION_DATE='2021-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2021-01-01T00:00:00+00:00'
+[2025-02-18T01:19:51.176+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-18T01:19:51.176+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-18T01:19:51.176+0200] {logging_mixin.py:190} INFO - Current task name:bash_pull state:running start_date:2025-02-17 23:19:51.018598+00:00
+[2025-02-18T01:19:51.176+0200] {logging_mixin.py:190} INFO - Dag name:example_xcom and current dag run status:running
+[2025-02-18T01:19:51.176+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-18T01:19:51.177+0200] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2025-02-18T01:19:51.178+0200] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "bash pull demo" && echo "The xcom pushed manually is manually_pushed_value" && echo "The returned_value xcom is value_by_return" && echo "finished"']
+[2025-02-18T01:19:51.188+0200] {subprocess.py:99} INFO - Output:
+[2025-02-18T01:19:51.189+0200] {subprocess.py:106} INFO - bash pull demo
+[2025-02-18T01:19:51.189+0200] {subprocess.py:106} INFO - The xcom pushed manually is manually_pushed_value
+[2025-02-18T01:19:51.189+0200] {subprocess.py:106} INFO - The returned_value xcom is value_by_return
+[2025-02-18T01:19:51.190+0200] {subprocess.py:106} INFO - finished
+[2025-02-18T01:19:51.190+0200] {subprocess.py:110} INFO - Command exited with return code 0
+[2025-02-18T01:19:51.200+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-18T01:19:51.201+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=example_xcom, task_id=bash_pull, run_id=scheduled__2021-01-01T00:00:00+00:00, execution_date=20210101T000000, start_date=20250217T231951, end_date=20250217T231951
+[2025-02-18T01:19:51.211+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-18T01:19:51.211+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-18T01:19:51.211+0200] {logging_mixin.py:190} INFO - Dag name:example_xcom queued_at:2025-02-17 23:19:27.143218+00:00
+[2025-02-18T01:19:51.211+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:BashOperator
+[2025-02-18T01:19:51.229+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-18T01:19:51.243+0200] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-18T01:19:51.244+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

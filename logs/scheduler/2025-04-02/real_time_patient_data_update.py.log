@@ -1,0 +1,63 @@
+[2025-04-02T15:48:48.709+0200] {processor.py:186} INFO - Started process (PID=15015) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:48:48.710+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:48:48.713+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:48:48.712+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:48:48.730+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:48:48.854+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:48:48.854+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:48:48.885+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:48:48.884+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:47:00+00:00, run_after=2025-04-02 13:48:00+00:00
+[2025-04-02T15:48:48.909+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.208 seconds
+[2025-04-02T15:49:56.491+0200] {processor.py:186} INFO - Started process (PID=15218) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:49:56.492+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:49:56.496+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:56.495+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:49:56.511+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:49:56.528+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:56.528+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:49:56.558+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:56.558+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:48:00+00:00, run_after=2025-04-02 13:49:00+00:00
+[2025-04-02T15:49:56.580+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.100 seconds
+[2025-04-02T15:50:35.235+0200] {processor.py:186} INFO - Started process (PID=15538) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:50:35.236+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:50:35.239+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:35.239+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:50:35.255+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:50:35.278+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:35.277+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:50:35.308+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:35.308+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:49:00+00:00, run_after=2025-04-02 13:50:00+00:00
+[2025-04-02T15:50:35.331+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.107 seconds
+[2025-04-02T15:51:12.794+0200] {processor.py:186} INFO - Started process (PID=15654) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:51:12.796+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:51:12.798+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:12.798+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:51:12.813+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:51:12.833+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:12.833+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:51:12.869+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:12.868+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:50:00+00:00, run_after=2025-04-02 13:51:00+00:00
+[2025-04-02T15:51:12.897+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.112 seconds
+[2025-04-02T15:51:51.365+0200] {processor.py:186} INFO - Started process (PID=16166) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:51:51.366+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:51:51.369+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:51.368+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:51:51.385+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:51:51.409+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:51.409+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:51:51.448+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:51.448+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:50:00+00:00, run_after=2025-04-02 13:51:00+00:00
+[2025-04-02T15:51:51.471+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.115 seconds
+[2025-04-02T15:52:28.906+0200] {processor.py:186} INFO - Started process (PID=16468) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:52:28.907+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:52:28.911+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:28.910+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:52:28.929+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:52:28.953+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:28.953+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:52:28.997+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:28.996+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:51:00+00:00, run_after=2025-04-02 13:52:00+00:00
+[2025-04-02T15:52:29.178+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.283 seconds
+[2025-04-02T15:53:05.558+0200] {processor.py:186} INFO - Started process (PID=17147) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:53:05.559+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:53:05.561+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:05.561+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:53:05.575+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:53:05.592+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:05.592+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:53:05.627+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:05.626+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:52:00+00:00, run_after=2025-04-02 13:53:00+00:00
+[2025-04-02T15:53:05.653+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.103 seconds
+[2025-04-02T15:53:41.101+0200] {processor.py:186} INFO - Started process (PID=17928) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:53:41.102+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:53:41.106+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:41.105+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:53:41.123+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:53:41.141+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:41.141+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:53:41.178+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:53:41.177+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:52:00+00:00, run_after=2025-04-02 13:53:00+00:00
+[2025-04-02T15:53:41.346+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.253 seconds
+[2025-04-02T15:54:19.292+0200] {processor.py:186} INFO - Started process (PID=18356) to work on /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:54:19.293+0200] {processor.py:914} INFO - Processing file /home/munyah/airflow/dags/real_time_patient_data_update.py for tasks to queue
+[2025-04-02T15:54:19.298+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:54:19.297+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:54:19.319+0200] {processor.py:925} INFO - DAG(s) 'patient-monitoring' retrieved from /home/munyah/airflow/dags/real_time_patient_data_update.py
+[2025-04-02T15:54:19.340+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:54:19.339+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:54:19.375+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:54:19.375+0200] {dag.py:4180} INFO - Setting next_dagrun for patient-monitoring to 2025-04-02 13:53:00+00:00, run_after=2025-04-02 13:54:00+00:00
+[2025-04-02T15:54:19.404+0200] {processor.py:208} INFO - Processing /home/munyah/airflow/dags/real_time_patient_data_update.py took 0.122 seconds

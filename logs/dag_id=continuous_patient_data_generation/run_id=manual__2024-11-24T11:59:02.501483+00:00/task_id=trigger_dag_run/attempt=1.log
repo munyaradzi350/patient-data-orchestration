@@ -1,0 +1,24 @@
+[2024-11-24T13:59:54.222+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-24T13:59:54.242+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: continuous_patient_data_generation.trigger_dag_run manual__2024-11-24T11:59:02.501483+00:00 [queued]>
+[2024-11-24T13:59:54.253+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: continuous_patient_data_generation.trigger_dag_run manual__2024-11-24T11:59:02.501483+00:00 [queued]>
+[2024-11-24T13:59:54.253+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-24T13:59:54.270+0200] {taskinstance.py:2889} INFO - Executing <Task(TriggerDagRunOperator): trigger_dag_run> on 2024-11-24 11:59:02.501483+00:00
+[2024-11-24T13:59:54.277+0200] {standard_task_runner.py:72} INFO - Started process 482777 to run task
+[2024-11-24T13:59:54.284+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'continuous_patient_data_generation', 'trigger_dag_run', 'manual__2024-11-24T11:59:02.501483+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmpq6s7ygn9']
+[2024-11-24T13:59:54.286+0200] {standard_task_runner.py:105} INFO - Job 95: Subtask trigger_dag_run
+[2024-11-24T13:59:54.335+0200] {task_command.py:467} INFO - Running <TaskInstance: continuous_patient_data_generation.trigger_dag_run manual__2024-11-24T11:59:02.501483+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2024-11-24T13:59:54.430+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='continuous_patient_data_generation' AIRFLOW_CTX_TASK_ID='trigger_dag_run' AIRFLOW_CTX_EXECUTION_DATE='2024-11-24T11:59:02.501483+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-24T11:59:02.501483+00:00'
+[2024-11-24T13:59:54.431+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-24T13:59:54.432+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-24T13:59:54.432+0200] {logging_mixin.py:190} INFO - Current task name:trigger_dag_run state:running start_date:2024-11-24 11:59:54.242802+00:00
+[2024-11-24T13:59:54.433+0200] {logging_mixin.py:190} INFO - Dag name:continuous_patient_data_generation and current dag run status:running
+[2024-11-24T13:59:54.433+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-24T13:59:54.508+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-24T13:59:54.508+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=continuous_patient_data_generation, task_id=trigger_dag_run, run_id=manual__2024-11-24T11:59:02.501483+00:00, execution_date=20241124T115902, start_date=20241124T115954, end_date=20241124T115954
+[2024-11-24T13:59:54.518+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-24T13:59:54.519+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-24T13:59:54.519+0200] {logging_mixin.py:190} INFO - Dag name:continuous_patient_data_generation queued_at:2024-11-24 11:59:02.519767+00:00
+[2024-11-24T13:59:54.519+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:TriggerDagRunOperator
+[2024-11-24T13:59:54.537+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-24T13:59:54.554+0200] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-24T13:59:54.555+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

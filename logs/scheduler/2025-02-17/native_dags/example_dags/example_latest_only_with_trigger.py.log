@@ -1,0 +1,49 @@
+[2025-02-18T01:19:48.392+0200] {processor.py:186} INFO - Started process (PID=350817) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:19:48.393+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-02-18T01:19:48.396+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:19:48.395+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:19:48.406+0200] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:19:48.427+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:19:48.427+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-18T01:19:48.453+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:19:48.452+0200] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-02-17 16:00:00+00:00, run_after=2025-02-17 20:00:00+00:00
+[2025-02-18T01:19:48.475+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.093 seconds
+[2025-02-18T01:21:10.827+0200] {processor.py:186} INFO - Started process (PID=351089) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:21:10.828+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-02-18T01:21:10.832+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:21:10.831+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:21:10.842+0200] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:21:10.864+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:21:10.864+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-18T01:21:10.891+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:21:10.890+0200] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-02-17 16:00:00+00:00, run_after=2025-02-17 20:00:00+00:00
+[2025-02-18T01:21:10.916+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.097 seconds
+[2025-02-18T01:22:21.502+0200] {processor.py:186} INFO - Started process (PID=351744) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:22:21.506+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-02-18T01:22:21.509+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:22:21.509+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:22:21.524+0200] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:22:21.550+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:22:21.550+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-18T01:22:21.586+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:22:21.585+0200] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-02-17 16:00:00+00:00, run_after=2025-02-17 20:00:00+00:00
+[2025-02-18T01:22:21.620+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.131 seconds
+[2025-02-18T01:23:31.085+0200] {processor.py:186} INFO - Started process (PID=352141) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:23:31.086+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-02-18T01:23:31.089+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:23:31.089+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:23:31.098+0200] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:23:31.115+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:23:31.115+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-18T01:23:31.137+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:23:31.136+0200] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-02-17 16:00:00+00:00, run_after=2025-02-17 20:00:00+00:00
+[2025-02-18T01:23:31.157+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.079 seconds
+[2025-02-18T01:24:41.690+0200] {processor.py:186} INFO - Started process (PID=352356) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:24:41.691+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-02-18T01:24:41.693+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:24:41.693+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:24:41.703+0200] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:24:41.720+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:24:41.720+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-18T01:24:41.741+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:24:41.741+0200] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-02-17 16:00:00+00:00, run_after=2025-02-17 20:00:00+00:00
+[2025-02-18T01:24:41.761+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.079 seconds
+[2025-02-18T01:25:47.012+0200] {processor.py:186} INFO - Started process (PID=352624) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:25:47.013+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-02-18T01:25:47.015+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:25:47.015+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:25:47.024+0200] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:25:47.041+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:25:47.041+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-18T01:25:47.062+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:25:47.062+0200] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-02-17 16:00:00+00:00, run_after=2025-02-17 20:00:00+00:00
+[2025-02-18T01:25:47.082+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.077 seconds
+[2025-02-18T01:26:54.435+0200] {processor.py:186} INFO - Started process (PID=352984) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:26:54.437+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py for tasks to queue
+[2025-02-18T01:26:54.440+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:26:54.439+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:26:54.450+0200] {processor.py:925} INFO - DAG(s) 'latest_only_with_trigger' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+[2025-02-18T01:26:54.467+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:26:54.467+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-02-18T01:26:54.487+0200] {logging_mixin.py:190} INFO - [2025-02-18T01:26:54.487+0200] {dag.py:4180} INFO - Setting next_dagrun for latest_only_with_trigger to 2025-02-17 16:00:00+00:00, run_after=2025-02-17 20:00:00+00:00
+[2025-02-18T01:26:54.508+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only_with_trigger.py took 0.084 seconds

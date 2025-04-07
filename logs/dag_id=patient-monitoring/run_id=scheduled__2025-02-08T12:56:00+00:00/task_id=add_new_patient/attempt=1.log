@@ -1,0 +1,27 @@
+[2025-02-08T14:57:09.917+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-08T14:57:09.937+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: patient-monitoring.add_new_patient scheduled__2025-02-08T12:56:00+00:00 [queued]>
+[2025-02-08T14:57:09.949+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: patient-monitoring.add_new_patient scheduled__2025-02-08T12:56:00+00:00 [queued]>
+[2025-02-08T14:57:09.949+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-02-08T14:57:10.060+0200] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): add_new_patient> on 2025-02-08 12:56:00+00:00
+[2025-02-08T14:57:10.075+0200] {standard_task_runner.py:72} INFO - Started process 60801 to run task
+[2025-02-08T14:57:10.087+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'patient-monitoring', 'add_new_patient', 'scheduled__2025-02-08T12:56:00+00:00', '--job-id', '57', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmpfo1cwlg9']
+[2025-02-08T14:57:10.089+0200] {standard_task_runner.py:105} INFO - Job 57: Subtask add_new_patient
+[2025-02-08T14:57:10.239+0200] {task_command.py:467} INFO - Running <TaskInstance: patient-monitoring.add_new_patient scheduled__2025-02-08T12:56:00+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2025-02-08T14:57:10.479+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='munyah' AIRFLOW_CTX_DAG_ID='patient-monitoring' AIRFLOW_CTX_TASK_ID='add_new_patient' AIRFLOW_CTX_EXECUTION_DATE='2025-02-08T12:56:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-02-08T12:56:00+00:00'
+[2025-02-08T14:57:10.480+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-02-08T14:57:10.480+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-02-08T14:57:10.481+0200] {logging_mixin.py:190} INFO - Current task name:add_new_patient state:running start_date:2025-02-08 12:57:09.938265+00:00
+[2025-02-08T14:57:10.481+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring and current dag run status:running
+[2025-02-08T14:57:10.481+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2025-02-08T14:57:10.517+0200] {real_time_patient_data_update.py:76} INFO - New Patient Added: {'Patient_ID': 'PAT-00051', 'Age': 43, 'Gender': 'Male', 'Height': 144.09, 'Weight': 46.89, 'Temperature': 35.8, 'Blood_Pressure': '120/68', 'Cholesterol_Level': 'Borderline', 'Blood_Sugar_Level': 64, 'Heart_Rate': 58, 'BMI': 27.31, 'Previous_Medical_History': 'No significant history', 'Comorbidities': 'None', 'Smoking_Status': 'No', 'Alcohol_Consumption': 'Yes', 'Physical_Activity': 'Low', 'Last_Visit_Date': '2025-01-30', 'Genomic_Info': 'Mutated', 'Diagnosis': 'No specific diagnosis', 'Hospitalization': 'Yes'}
+[2025-02-08T14:57:10.519+0200] {real_time_patient_data_update.py:77} INFO - Total Patients After Addition: 51
+[2025-02-08T14:57:10.520+0200] {python.py:240} INFO - Done. Returned value was: None
+[2025-02-08T14:57:10.529+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-02-08T14:57:10.530+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=patient-monitoring, task_id=add_new_patient, run_id=scheduled__2025-02-08T12:56:00+00:00, execution_date=20250208T125600, start_date=20250208T125709, end_date=20250208T125710
+[2025-02-08T14:57:10.554+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-02-08T14:57:10.555+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-02-08T14:57:10.556+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring queued_at:2025-02-08 12:57:01.234111+00:00
+[2025-02-08T14:57:10.556+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:PythonOperator
+[2025-02-08T14:57:10.586+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-08T14:57:10.628+0200] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-02-08T14:57:10.630+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

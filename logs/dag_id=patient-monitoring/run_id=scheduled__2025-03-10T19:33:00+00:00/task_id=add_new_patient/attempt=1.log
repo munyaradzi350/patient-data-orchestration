@@ -1,0 +1,50 @@
+[2025-03-10T21:34:55.693+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T21:34:55.736+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: patient-monitoring.add_new_patient scheduled__2025-03-10T19:33:00+00:00 [queued]>
+[2025-03-10T21:34:55.762+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: patient-monitoring.add_new_patient scheduled__2025-03-10T19:33:00+00:00 [queued]>
+[2025-03-10T21:34:55.763+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-03-10T21:34:55.803+0200] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): add_new_patient> on 2025-03-10 19:33:00+00:00
+[2025-03-10T21:34:55.818+0200] {standard_task_runner.py:72} INFO - Started process 33648 to run task
+[2025-03-10T21:34:55.835+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'patient-monitoring', 'add_new_patient', 'scheduled__2025-03-10T19:33:00+00:00', '--job-id', '120', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmp0ifm1y3y']
+[2025-03-10T21:34:55.841+0200] {standard_task_runner.py:105} INFO - Job 120: Subtask add_new_patient
+[2025-03-10T21:34:55.980+0200] {task_command.py:467} INFO - Running <TaskInstance: patient-monitoring.add_new_patient scheduled__2025-03-10T19:33:00+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2025-03-10T21:34:56.215+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='munyah' AIRFLOW_CTX_DAG_ID='patient-monitoring' AIRFLOW_CTX_TASK_ID='add_new_patient' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T19:33:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-10T19:33:00+00:00'
+[2025-03-10T21:34:56.218+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T21:34:56.219+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T21:34:56.220+0200] {logging_mixin.py:190} INFO - Current task name:add_new_patient state:running start_date:2025-03-10 19:34:55.738539+00:00
+[2025-03-10T21:34:56.221+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring and current dag run status:running
+[2025-03-10T21:34:56.222+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-10T21:34:56.303+0200] {real_time_patient_data_update.py:80} INFO - New Patient Added: {
+  "Patient_ID": "PAT-00074",
+  "Age": 32,
+  "Gender": "Male",
+  "Height": 135.09,
+  "Weight": 74.18,
+  "Temperature": 37.3,
+  "Blood_Pressure": "130/83",
+  "Cholesterol_Level": "Normal",
+  "Blood_Sugar_Level": 211,
+  "Heart_Rate": 181,
+  "BMI": 15.41,
+  "Previous_Medical_History": "No significant history",
+  "Comorbidities": "None",
+  "Smoking_Status": "Yes",
+  "Alcohol_Consumption": "Yes",
+  "Physical_Activity": "Moderate",
+  "Last_Visit_Date": "2025-01-26",
+  "Genomic_Info": "Mutated",
+  "Diagnosis": "No specific diagnosis",
+  "Hospitalization": "No"
+}
+[2025-03-10T21:34:56.305+0200] {real_time_patient_data_update.py:81} INFO - Total Patients After Addition: 79
+[2025-03-10T21:34:56.339+0200] {base.py:84} INFO - Retrieving connection 'patients_data'
+[2025-03-10T21:34:56.400+0200] {real_time_patient_data_update.py:92} INFO - New patient PAT-00074 added to the database successfully.
+[2025-03-10T21:34:56.401+0200] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-10T21:34:56.439+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-10T21:34:56.443+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=patient-monitoring, task_id=add_new_patient, run_id=scheduled__2025-03-10T19:33:00+00:00, execution_date=20250310T193300, start_date=20250310T193455, end_date=20250310T193456
+[2025-03-10T21:34:56.487+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-10T21:34:56.492+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-10T21:34:56.494+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring queued_at:2025-03-10 19:34:24.806825+00:00
+[2025-03-10T21:34:56.495+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:PythonOperator
+[2025-03-10T21:34:56.557+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-10T21:34:56.653+0200] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T21:34:56.656+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

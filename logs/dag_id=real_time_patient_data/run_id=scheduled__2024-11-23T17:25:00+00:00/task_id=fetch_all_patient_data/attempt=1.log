@@ -1,0 +1,53 @@
+[2024-11-23T19:30:04.141+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-23T19:30:04.153+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: real_time_patient_data.fetch_all_patient_data scheduled__2024-11-23T17:25:00+00:00 [queued]>
+[2024-11-23T19:30:04.161+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: real_time_patient_data.fetch_all_patient_data scheduled__2024-11-23T17:25:00+00:00 [queued]>
+[2024-11-23T19:30:04.161+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-23T19:30:04.177+0200] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_all_patient_data> on 2024-11-23 17:25:00+00:00
+[2024-11-23T19:30:04.185+0200] {standard_task_runner.py:72} INFO - Started process 409605 to run task
+[2024-11-23T19:30:04.189+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'real_time_patient_data', 'fetch_all_patient_data', 'scheduled__2024-11-23T17:25:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmp5ap6i5aj']
+[2024-11-23T19:30:04.191+0200] {standard_task_runner.py:105} INFO - Job 8: Subtask fetch_all_patient_data
+[2024-11-23T19:30:04.234+0200] {task_command.py:467} INFO - Running <TaskInstance: real_time_patient_data.fetch_all_patient_data scheduled__2024-11-23T17:25:00+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2024-11-23T19:30:04.309+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='real_time_patient_data' AIRFLOW_CTX_TASK_ID='fetch_all_patient_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-23T17:25:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-23T17:25:00+00:00'
+[2024-11-23T19:30:04.310+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-23T19:30:04.310+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-23T19:30:04.311+0200] {logging_mixin.py:190} INFO - Current task name:fetch_all_patient_data state:running start_date:2024-11-23 17:30:04.154095+00:00
+[2024-11-23T19:30:04.311+0200] {logging_mixin.py:190} INFO - Dag name:real_time_patient_data and current dag run status:running
+[2024-11-23T19:30:04.311+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-23T19:30:04.317+0200] {base.py:84} INFO - Retrieving connection 'patients_data'
+[2024-11-23T19:30:04.352+0200] {logging_mixin.py:190} INFO - Fetched 50 patients initially.
+[2024-11-23T19:30:04.352+0200] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-23T19:30:04.359+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-23T19:30:04.360+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=real_time_patient_data, task_id=fetch_all_patient_data, run_id=scheduled__2024-11-23T17:25:00+00:00, execution_date=20241123T172500, start_date=20241123T173004, end_date=20241123T173004
+[2024-11-23T19:30:04.372+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-23T19:30:04.373+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-23T19:30:04.373+0200] {logging_mixin.py:190} INFO - Dag name:real_time_patient_data queued_at:2024-11-23 17:30:01.603862+00:00
+[2024-11-23T19:30:04.374+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:PythonOperator
+[2024-11-23T19:30:04.402+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-23T19:30:04.424+0200] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-23T19:30:04.426+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-11-23T19:30:59.217+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-23T19:30:59.229+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: real_time_patient_data.fetch_all_patient_data scheduled__2024-11-23T17:25:00+00:00 [queued]>
+[2024-11-23T19:30:59.237+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: real_time_patient_data.fetch_all_patient_data scheduled__2024-11-23T17:25:00+00:00 [queued]>
+[2024-11-23T19:30:59.237+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-23T19:30:59.257+0200] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_all_patient_data> on 2024-11-23 17:25:00+00:00
+[2024-11-23T19:30:59.264+0200] {standard_task_runner.py:72} INFO - Started process 409861 to run task
+[2024-11-23T19:30:59.273+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'real_time_patient_data', 'fetch_all_patient_data', 'scheduled__2024-11-23T17:25:00+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmppdeyb859']
+[2024-11-23T19:30:59.274+0200] {standard_task_runner.py:105} INFO - Job 2: Subtask fetch_all_patient_data
+[2024-11-23T19:30:59.323+0200] {task_command.py:467} INFO - Running <TaskInstance: real_time_patient_data.fetch_all_patient_data scheduled__2024-11-23T17:25:00+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2024-11-23T19:30:59.418+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='real_time_patient_data' AIRFLOW_CTX_TASK_ID='fetch_all_patient_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-23T17:25:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-23T17:25:00+00:00'
+[2024-11-23T19:30:59.419+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-23T19:30:59.420+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-23T19:30:59.421+0200] {logging_mixin.py:190} INFO - Current task name:fetch_all_patient_data state:running start_date:2024-11-23 17:30:59.229674+00:00
+[2024-11-23T19:30:59.421+0200] {logging_mixin.py:190} INFO - Dag name:real_time_patient_data and current dag run status:running
+[2024-11-23T19:30:59.421+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-23T19:30:59.431+0200] {base.py:84} INFO - Retrieving connection 'patients_data'
+[2024-11-23T19:30:59.459+0200] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-23T19:30:59.469+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-23T19:30:59.470+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=real_time_patient_data, task_id=fetch_all_patient_data, run_id=scheduled__2024-11-23T17:25:00+00:00, execution_date=20241123T172500, start_date=20241123T173059, end_date=20241123T173059
+[2024-11-23T19:30:59.484+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-23T19:30:59.485+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-23T19:30:59.486+0200] {logging_mixin.py:190} INFO - Dag name:real_time_patient_data queued_at:2024-11-23 17:30:56.185086+00:00
+[2024-11-23T19:30:59.486+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:PythonOperator
+[2024-11-23T19:30:59.527+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-23T19:30:59.548+0200] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-23T19:30:59.552+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,26 @@
+[2024-11-23T19:31:10.712+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-23T19:31:10.724+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: real_time_patient_data.update_patient_data manual__2024-11-23T17:30:55.050594+00:00 [queued]>
+[2024-11-23T19:31:10.733+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: real_time_patient_data.update_patient_data manual__2024-11-23T17:30:55.050594+00:00 [queued]>
+[2024-11-23T19:31:10.733+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-23T19:31:10.749+0200] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): update_patient_data> on 2024-11-23 17:30:55.050594+00:00
+[2024-11-23T19:31:10.756+0200] {standard_task_runner.py:72} INFO - Started process 409963 to run task
+[2024-11-23T19:31:10.763+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'real_time_patient_data', 'update_patient_data', 'manual__2024-11-23T17:30:55.050594+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmpapsz9arw']
+[2024-11-23T19:31:10.765+0200] {standard_task_runner.py:105} INFO - Job 5: Subtask update_patient_data
+[2024-11-23T19:31:10.813+0200] {task_command.py:467} INFO - Running <TaskInstance: real_time_patient_data.update_patient_data manual__2024-11-23T17:30:55.050594+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2024-11-23T19:31:10.879+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='real_time_patient_data' AIRFLOW_CTX_TASK_ID='update_patient_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-23T17:30:55.050594+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-23T17:30:55.050594+00:00'
+[2024-11-23T19:31:10.881+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-23T19:31:10.881+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-23T19:31:10.881+0200] {logging_mixin.py:190} INFO - Current task name:update_patient_data state:running start_date:2024-11-23 17:31:10.724570+00:00
+[2024-11-23T19:31:10.882+0200] {logging_mixin.py:190} INFO - Dag name:real_time_patient_data and current dag run status:running
+[2024-11-23T19:31:10.882+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-23T19:31:10.898+0200] {logging_mixin.py:190} INFO - New patient added: {'Patient_ID': 'PAT-00051', 'Age': 106, 'Gender': 'Female', 'Height': 115.3, 'Weight': 118.13, 'Temperature': 37.6, 'Blood_Pressure': '109/82', 'Cholesterol_Level': 'High', 'Blood_Sugar_Level': 104, 'Heart_Rate': 30, 'BMI': 22.89, 'Previous_Medical_History': 'No significant history', 'Comorbidities': 'None', 'Smoking_Status': 'No', 'Alcohol_Consumption': 'Yes', 'Physical_Activity': 'Moderate', 'Last_Visit_Date': '2024-03-27', 'Genomic_Info': 'High Risk', 'Diagnosis': 'No specific diagnosis', 'Hospitalization': 'No'}
+[2024-11-23T19:31:10.898+0200] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-23T19:31:10.903+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-23T19:31:10.903+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=real_time_patient_data, task_id=update_patient_data, run_id=manual__2024-11-23T17:30:55.050594+00:00, execution_date=20241123T173055, start_date=20241123T173110, end_date=20241123T173110
+[2024-11-23T19:31:10.913+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-23T19:31:10.913+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-23T19:31:10.913+0200] {logging_mixin.py:190} INFO - Dag name:real_time_patient_data queued_at:2024-11-23 17:30:55.069209+00:00
+[2024-11-23T19:31:10.913+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:PythonOperator
+[2024-11-23T19:31:10.937+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-23T19:31:10.953+0200] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-23T19:31:10.954+0200] {local_task_job_runner.py:245} INFO - ::endgroup::

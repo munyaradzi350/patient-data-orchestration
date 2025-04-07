@@ -1,0 +1,35 @@
+[2025-04-02T15:49:18.914+0200] {processor.py:186} INFO - Started process (PID=15120) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:49:18.916+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-02T15:49:18.920+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:18.919+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:49:18.937+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:49:18.970+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:18.969+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:49:18.987+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:49:18.987+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-02T15:49:19.013+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.109 seconds
+[2025-04-02T15:50:27.793+0200] {processor.py:186} INFO - Started process (PID=15510) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:50:27.796+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-02T15:50:27.804+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:27.803+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:50:27.835+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:50:27.864+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:27.863+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:50:27.880+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:50:27.879+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-02T15:50:28.037+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.268 seconds
+[2025-04-02T15:51:43.924+0200] {processor.py:186} INFO - Started process (PID=15779) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:51:43.925+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-02T15:51:43.928+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:43.927+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:51:43.943+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:51:43.972+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:43.972+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:51:43.987+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:51:43.987+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-02T15:51:44.154+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.239 seconds
+[2025-04-02T15:52:58.945+0200] {processor.py:186} INFO - Started process (PID=16624) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:52:58.947+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-02T15:52:58.951+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:58.950+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:52:58.972+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:52:59.015+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:59.014+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:52:59.217+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:52:59.217+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-02T15:52:59.246+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.311 seconds
+[2025-04-02T15:54:13.422+0200] {processor.py:186} INFO - Started process (PID=18339) to work on /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:54:13.425+0200] {processor.py:914} INFO - Processing file /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2025-04-02T15:54:13.431+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:54:13.430+0200] {dagbag.py:588} INFO - Filling up the DagBag from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:54:13.463+0200] {processor.py:925} INFO - DAG(s) 'example_sensors' retrieved from /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2025-04-02T15:54:13.497+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:54:13.497+0200] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-02T15:54:13.653+0200] {logging_mixin.py:190} INFO - [2025-04-02T15:54:13.653+0200] {dag.py:4180} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2025-04-02T15:54:13.681+0200] {processor.py:208} INFO - Processing /home/munyah/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.274 seconds

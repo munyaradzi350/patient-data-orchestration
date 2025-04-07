@@ -1,0 +1,27 @@
+[2025-03-10T21:21:04.371+0200] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-10T21:21:04.381+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: patient-monitoring.fetch_existing_patients scheduled__2025-03-10T19:20:00+00:00 [queued]>
+[2025-03-10T21:21:04.390+0200] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: patient-monitoring.fetch_existing_patients scheduled__2025-03-10T19:20:00+00:00 [queued]>
+[2025-03-10T21:21:04.390+0200] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-03-10T21:21:04.402+0200] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): fetch_existing_patients> on 2025-03-10 19:20:00+00:00
+[2025-03-10T21:21:04.408+0200] {standard_task_runner.py:72} INFO - Started process 30765 to run task
+[2025-03-10T21:21:04.412+0200] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'patient-monitoring', 'fetch_existing_patients', 'scheduled__2025-03-10T19:20:00+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/real_time_patient_data_update.py', '--cfg-path', '/tmp/tmpu11inovz']
+[2025-03-10T21:21:04.414+0200] {standard_task_runner.py:105} INFO - Job 111: Subtask fetch_existing_patients
+[2025-03-10T21:21:04.450+0200] {task_command.py:467} INFO - Running <TaskInstance: patient-monitoring.fetch_existing_patients scheduled__2025-03-10T19:20:00+00:00 [running]> on host munyah-ThinkPad-X1-Yoga-1st
+[2025-03-10T21:21:04.516+0200] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='munyah' AIRFLOW_CTX_DAG_ID='patient-monitoring' AIRFLOW_CTX_TASK_ID='fetch_existing_patients' AIRFLOW_CTX_EXECUTION_DATE='2025-03-10T19:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-10T19:20:00+00:00'
+[2025-03-10T21:21:04.517+0200] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-10T21:21:04.517+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-10T21:21:04.517+0200] {logging_mixin.py:190} INFO - Current task name:fetch_existing_patients state:running start_date:2025-03-10 19:21:04.381928+00:00
+[2025-03-10T21:21:04.518+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring and current dag run status:running
+[2025-03-10T21:21:04.518+0200] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-10T21:21:04.523+0200] {base.py:84} INFO - Retrieving connection 'patients_data'
+[2025-03-10T21:21:04.537+0200] {real_time_patient_data_update.py:19} INFO - Total existing patients: 75
+[2025-03-10T21:21:04.548+0200] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-10T21:21:04.554+0200] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-10T21:21:04.555+0200] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=patient-monitoring, task_id=fetch_existing_patients, run_id=scheduled__2025-03-10T19:20:00+00:00, execution_date=20250310T192000, start_date=20250310T192104, end_date=20250310T192104
+[2025-03-10T21:21:04.566+0200] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-10T21:21:04.566+0200] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-10T21:21:04.567+0200] {logging_mixin.py:190} INFO - Dag name:patient-monitoring queued_at:2025-03-10 19:21:01.976099+00:00
+[2025-03-10T21:21:04.567+0200] {logging_mixin.py:190} INFO - Task hostname:munyah-ThinkPad-X1-Yoga-1st operator:PythonOperator
+[2025-03-10T21:21:04.585+0200] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-10T21:21:04.603+0200] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-10T21:21:04.606+0200] {local_task_job_runner.py:245} INFO - ::endgroup::
